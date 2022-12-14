@@ -1,6 +1,6 @@
 {
   "name": "ngx-socket-io",
-  "version": "4.4.0",
+  "version": "4.2.2",
   "description": "Socket.IO module for Angular",
   "main": "index.ts",
   "scripts": {
@@ -31,19 +31,19 @@
     "zone.js": "~0.11.4"
   },
   "peerDependencies": {
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0",
-    "rxjs": "^7.0.0"
+    "@angular/common": "^13.2.2",
+    "@angular/core": "^13.2.2",
+    "rxjs": "^6.6.0"
   },
   "devDependencies": {
-    "@angular/compiler": "^15.0.0",
-    "@angular/compiler-cli": "^15.0.0",
-    "@angular/core": "^15.0.0",
+    "@angular/compiler": "^13.2.2",
+    "@angular/compiler-cli": "^13.2.2",
+    "@angular/core": "^13.2.2",
     "@types/node": "^12.7.1",
     "@types/socket.io": "^2.1.2",
     "@types/socket.io-client": "^1.4.32",
     "husky": "^6.0.0",
-    "ng-packagr": "^15.0.0",
+    "ng-packagr": "^13.2.2",
     "prettier": "^2.2.1",
     "rxjs": "^7.0.0",
     "tslint": "^5.18.0",
