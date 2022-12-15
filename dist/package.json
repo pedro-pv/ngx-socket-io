@@ -29,7 +29,7 @@
   "peerDependencies": {
     "@angular/common": "^13.2.2",
     "@angular/core": "^13.2.2",
-    "rxjs": "^6.6.0"
+    "rxjs": "^6.5.3"
   },
   "module": "fesm2015/ngx-socket-io.mjs",
   "es2020": "fesm2020/ngx-socket-io.mjs",
