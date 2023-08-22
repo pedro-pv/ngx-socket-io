@@ -110,25 +110,6 @@ export interface SocketIoConfig {
      * A list of subprotocols. See https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers#Subprotocols
      */
     protocols?: any;
-    /**
-     * Credentials that are sent when accessing a namespace. Default: not present
-     */
-    auth?: { [key: string]: any } | ((cb: (data: object) => void) => void);
-    /**
-     * Whether cross-site requests should be made using credentials such as cookies, authorization headers or TLS client certificates. Setting withCredentials has no effect on same-site requests. Default value: false
-     */
-    withCredentials?: boolean;
-    /**
-     * Additional headers (then found in socket.handshake.headers object on the server-side). Default value: -
-     */
-    extraHeaders?: {
-      [header: string]: string;
-    };
-
-    /**
-     * decide whether to trigger disconnect event when reloading the page or not
-     * */
-    closeOnBeforeunload?: boolean;
 
     // Additional options for NodeJS Engine.IO clients omitted: https://socket.io/docs/client-api/
   };
